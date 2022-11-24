@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Easy Access to Books.">
+	<meta name="keywords" content="book reading, books,online books,informational,motivational,historical">
+  	<meta name="author" content="Umar Ashraf">
+    <title>LogIn</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1 style="font-family:'Brush Script MT',cursive; font-size: 34px">Library Titan</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="summary.html">Summary</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+			<li  class="current"><a href="login.html">LogIn</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+	
+	<h2>Login Here</h2><br>    
+    <div class="login">    
+    <form id="login" method="get" action="login.php">    
+        <label><b>User Name</b></label>    
+        <input type="text" name="Uname" id="Uname" placeholder="Username">    
+        <br><br>  
+        <label><b>Password</b></label>    
+        <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+        <br>
+        <input type="checkbox" checked="checked" name="remember"><i style="color:white">Remember me</i>
+		<br><br>
+        <input type="button" name="log" id="log" value="LogIn">       
+        <br><br>  
+        <b style="color: white;">Forgot <a href="#">Password</a></b>   
+    </form>     
+	</div> 
+	
+	<footer>
+      <p>Library Titan, Copyright &copy; 2021</p>
+    </footer>
+	
+   </body>
+</html>
